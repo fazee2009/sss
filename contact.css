@@ -1,0 +1,99 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+nav{
+    height: 75px;
+    width: 100%;
+    line-height:75px;
+    background-image:blue,transparent;
+    padding: 0px 100px;
+
+}
+.logo p{
+        font-size:50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color:white;
+        float:left;
+        text-transform: capitalize;
+
+}
+
+nav ul{
+       float:right;
+}
+nav li{
+       display: inline-block;
+       list-style:none;
+       padding:0px 40px;
+       cursor:pointer;
+}
+nav li a{
+         font-size:20px;
+         text-transform:uppercase;
+         color:green;
+         text-decoration:none;
+         cursor:pointer;
+}
+nav li:nth-child(3){
+                     background-color:black;
+                     border-radius: 15px;
+                     border: none;
+}
+nav li a:hover{
+               color:white;
+               transition:0.2s;
+}
+body{
+     background-image:url(img/3.jpg);
+     background-size:cover;
+}
+.item{
+       font-size: 30px;
+       color:blue;
+       padding-top: 100px;
+       padding-left: 5px;
+       padding-right: 50px;
+       cursor: pointer;
+}
+.sm{
+       list-style:none;
+       display:inline;
+
+}
+.sm li{
+       height: 100px;
+}
+.sm ul li a button{
+       font-size: 15px;
+       font-family: 'Courier New', Courier, monospace;
+       width: 230px;
+       height: 40px;
+       border: none;
+       border-radius: 15px;
+       font-style: oblique;
+
+}
+.sm ul li a button:hover{
+           height: 40px;
+           width: 230px;
+           background-position: center;
+           background-color: chocolate;
+           font-family: 'Courier New', Courier, monospace;
+}
+.sm ul li a button img{
+       width: 25px;
+       height:25px ;
+}
+footer{
+       height: 90px;
+       width: 100%;
+       line-height:65px;
+       background-image:linear-gradient(#033747,#012733);
+
+}
+footer h1{
+        text-align:center;
+}
